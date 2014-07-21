@@ -1,5 +1,5 @@
 {
-  "name": "google-analytics-server",
+  "name": "ga-server",
   "version": "0.0.1",
   "description": "Google Analytics server application",
   "main": "lib/ga",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tommy351/google-analytics-server.git"
+    "url": "git://github.com/tommy351/node-ga-server.git"
   },
   "bugs": {
-    "url": "https://github.com/tommy351/google-analytics-server/issues"
+    "url": "https://github.com/tommy351/node-ga-server/issues"
   },
   "keywords": [
     "analytics"
@@ -24,5 +24,8 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "request": "^2.37.0"
   }
 }
