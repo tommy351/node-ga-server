@@ -1,7 +1,7 @@
 {
   "name": "ga-server",
-  "version": "0.0.1",
-  "description": "Google Analytics server application",
+  "version": "0.0.2",
+  "description": "Google Analytics API for Node.js.",
   "main": "lib/ga",
   "scripts": {
     "test": "make test"
